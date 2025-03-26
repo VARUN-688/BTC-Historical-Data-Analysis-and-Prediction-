@@ -7,7 +7,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Unzip file
-        run: unzip your-archive.zip -d extracted_folder
+        run: unzip internshipproject.zip -d extracted_folder
       - name: Commit extracted files
         run: |
           git config --global user.name "github-actions"
